@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
+<title>Contacts</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -17,7 +17,7 @@
 	<script type="text/javascript" src="js/html5.js"></script>
 <![endif]-->
 </head>
-<body id="page1">
+<body id="page4">
 <div class="main">
 <!-- header -->
 	<header>
@@ -32,10 +32,10 @@
 		</div>
 		<nav>
 			<ul id="menu">
-				<li class="alpha" id="menu_active"><a href="index.html"><span><span>Home</span></span></a></li>
+				<li class="alpha"><a href="index.html"><span><span>Home</span></span></a></li>
 				<li><a href="About.html"><span><span>About</span></span> </a></li>
 				<li><a href="Projects.html"><span><span>Projects</span></span></a></li>
-				<li><a href="Contacts.html"><span><span>Contacts</span></span></a></li>
+				<li id="menu_active"><a href="Contacts.html"><span><span>Contacts</span></span></a></li>
 				<li class="omega"><a href="Sitemap.html"><span><span>Sitemap</span></span></a></li>
 			</ul>
 		</nav>
@@ -50,7 +50,54 @@
 <!-- content -->
 	<section id="content">
 		<div class="wrapper">
-			<div class="wrapper">
+			<div class="pad">
+				<div class="wrapper">
+					<article class="col1"><h2>Contact form</h2></article>
+					<article class="col2 pad_left1"><h2>Contact us</h2></article>
+				</div>
+			</div>
+			<div class="box pad_bot1">
+				<div class="pad marg_top">
+					<article class="col1">
+						<form id="ContactForm" action="">
+							<div>
+								<div class="wrapper">
+									<div class="bg"><input class="input" type="text"></div>Name:
+								</div>
+								<div class="wrapper">
+									<div class="bg"><input class="input" type="text"></div>Email:
+								</div>
+								<div class="wrapper">
+									<div class="bg2"><textarea cols="1" rows="1"></textarea></div>Message:
+								</div>
+								<a href="#" class="button" onclick="document.getElementById('ContactForm').submit()">send</a>
+								<a href="#" class="button" onclick="document.getElementById('ContactForm').reset()">clear</a>
+							</div>
+						</form>
+					</article>
+					<article class="col2 pad_left1">
+						<div class="wrapper">
+							<p class="cols pad_bot3">
+								<strong>
+									Country:<br>
+									City:<br>
+									Telephone:<br>
+									Email:
+								</strong>
+							</p>
+							<p class="pad_bot3">
+								USA<br>
+								San Diego<br>
+								+354 5635600<br>
+								<a href="mailto:">smartbiz@mail.com</a>
+							</p>
+						</div>
+						<h2>Miscellaneous Info</h2>
+						<p class="pad_bot3">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusantaque earum rerum hic.</p>
+					</article>
+				</div>
+			</div>
+			<div class="wrapper pad_bot4">
 				<ul class="banners">
 					<li>
 						<a href="#"><img src="images/page1_img1.jpg" alt=""></a>
@@ -85,55 +132,6 @@
 						</div>
 					</li>
 				</ul>
-			</div>
-			<div class="wrapper">
-				<div class="box bot pad_bot2">
-					<div class="pad">
-						<article class="col1">
-							<h2>Take the best business deal</h2>
-							<strong>Smart Biz Template</strong> is one of <a rel="nofollow" href="http://www.templatemonster.com/website-templates.php" target="_blank">free website templates</a> created by Templates.com team. This website template is optimized for 1024X768 screen resolution. It is also XHTML &amp; CSS valid.
-							<div class="wrapper">
-								<figure class="left marg_right1 marg_top2"><img src="images/page1_img5.jpg" alt=""></figure>
-								<p class="marg_top">This <a href="http://blog.templatemonster.com/2011/01/24/free-business-website-template-efficient-choice/" target="_blank">Free Business Website Template</a> goes with two packages – with PSD source files and without them. PSD source files are available for free for the registered members of Templates.com. The basic package (without PSD is available for anyone without registration).</p>
-							</div>
-							<p>This website template has several pages: <a href="index.html">Home</a>, <a href="About.html">About</a>, <a href="Projects.html">Projects</a>, <a href="Contacts.html">Contacts</a> (note that contact us form – doesn’t work), <a href="Sitemap.html">Sitemap</a>.</p>
-							<div class="wrapper line1">
-								<ul class="list1 cols">
-									<li><a href="#">At vero eos et accusamus iusto</a></li>
-									<li><a href="#">Odio dignissimos ducimus</a></li>
-									<li><a href="#">Blanditiis praesentium voluptatum</a></li>
-									<li><a href="#">Deleniti atque corrupti quos dolores</a></li>
-								</ul>
-								<ul class="list1 cols pad_left2">
-									<li><a href="#">Sint occaecati cuditate nongd</a></li>
-									<li><a href="#">Provident similque suxpin culpa qui</a></li>
-									<li><a href="#">Officia deserunt mollitia animidt</a></li>
-									<li><a href="#">Etharum quidem rerum facili</a></li>
-								</ul>
-							</div>
-						</article>
-						<article class="col2 pad_left1">
-							<h2>Latest projects</h2>
-							<div class="wrapper">
-								<div class="wrapper pad_bot1">
-									<figure class="left marg_right1"><a href="#"><img src="images/page1_img6.jpg" alt=""></a></figure>
-									<p>Sed peraspiciatis unde omnis iste natus eraror sit voluptatem accusantium doloremque.</p>
-									<a href="#" class="marker"></a>
-								</div>
-								<div class="wrapper pad_bot1">
-									<figure class="left marg_right1"><a href="#"><img src="images/page1_img7.jpg" alt=""></a></figure>
-									<p>Laudantiuam totam aperiam, eaque ipsa quaae ab illo inventore veritatais quasi.</p>
-									<a href="#" class="marker"></a>
-								</div>
-								<div class="wrapper">
-									<figure class="left marg_right1"><a href="#"><img src="images/page1_img8.jpg" alt=""></a></figure>
-									<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed.</p>
-									<a href="#" class="marker"></a>
-								</div>
-							</div>
-						</article>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
